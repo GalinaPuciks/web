@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="header">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Сайт-визитка</title>
-    <hr color="red">
 </head>
 <body>
-    <h1>Киселева Галина</h1>
-    <img src="img/photo.jpg" alt="photo" width="200" height="250">
+    <header class="header">
+        <nav class="navigation-menu">
+            <a href="#about_me">Обо мне</a>
+            <a href="#education">Образование</a>
+            <a href="#experience">Опыт работы</a>
+            <a href="#hobby">Хобби</a>
+            <a href="#my_way">Как я становился разработчиком</a>
+        </nav>
+    </header>
+    
     <main>
+        <div class="persone">
+            <h1>Киселева Галина</h1>
+            <img src="img/photo.jpg" alt="photo" width="200" height="250">
+        </div>
         <section > 
-            <h2>Обо мне &#9786</h2>
+            <h2 id="about_me">Обо мне &#9786</h2>
                 <p>Мне 32 года, по образованию финансист <br>
                    По призванию <strong>программист</strong>  <br>
                    Замужем, есть маленькая дочка.
@@ -20,7 +32,7 @@
         </section>
 
         <section >
-            <h2>Образование &#9786;</h2>
+            <h2 id="education">Образование &#9786;</h2>
                 <p>Челябинский Государственный Университет 2005-2010 <br>
                    Экономический факультет <br>
                    Специальность "Финансы и кредит" <br>
@@ -29,18 +41,18 @@
         </section>
 
         <section > 
-            <h2>Опыт работы &#9786;</h2>
+            <h2 id="experience">Опыт работы &#9786;</h2>
                 <p></p>
         </section>
      
         <section > 
-            <h2>хобби &#9786;</h2>
+            <h2 id="hobby">хобби &#9786;</h2>
             <p>сноубор
                 лыжи
                 коньки</p>
         </section>
         <section > 
-            <h2>Как я становился разработчиком &#9786;</h2>
+            <h2 id="my_way">Как я становился разработчиком &#9786;</h2>
             <p>
                 <ul>
                     <li>7.06 начало курса по Frontend</li>
@@ -54,7 +66,7 @@
 
     </main>
 </body>
-<footer>
+<footer class="footer">
     <h2>Я в социальных сетях &#128386</h2>
     <p>
         <a href="facebook.com">facebook</a> <br>
